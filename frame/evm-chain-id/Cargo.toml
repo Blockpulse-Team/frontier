@@ -19,8 +19,8 @@ codec = { package = "parity-scale-codec", version = "3.2.1", default-features = 
 scale-info = { version = "2.3.0", default-features = false, features = ["derive"] }
 
 # Substrate FRAME
-frame-support = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-frame-system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
+frame-support = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", rev = "8a3b2f2e0d4bcf9614dbf174ad2b24da6f9b0b44", default-features = false }
+frame-system = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", rev = "8a3b2f2e0d4bcf9614dbf174ad2b24da6f9b0b44", default-features = false }
 
 [features]
 default = ["std"]
